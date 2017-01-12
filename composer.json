@@ -1,16 +1,22 @@
 {
-  "name": "mews/purifier",
+  "name": "luketowers/purifier",
   "type": "package",
   "description": "Laravel 5 HtmlPurifier Package",
   "keywords": ["laravel5 HtmlPurifier", "laravel5 Purifier", "laravel5 Security", "HtmlPurifier", "Purifier", "security", "xss"],
-  "homepage": "https://github.com/mewebstudio/purifier",
+  "homepage": "https://github.com/LukeTowers/Purifier",
   "license": "MIT",
   "authors": [
     {
       "name": "Muharrem ERİN",
       "email": "me@mewebstudio.com",
       "homepage": "https://github.com/mewebstudio",
-      "role": "Developer"
+      "role": "Original Author"
+    },
+    {
+      "name": "Luke Towers",
+      "email": "laravel.purifier@luketowers.cs",
+      "homepage": "https://luketowers.ca/",
+      "role": "Maintainer"
     }
   ],
   "require": {
@@ -32,7 +38,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mews\\Purifier\\": "src/"
+      "LukeTowers\\Purifier\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -40,7 +46,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Mews\\Tests\\Purifier\\": "tests/"
+      "LukeTowers\\Tests\\Purifier\\": "tests/"
     }
   },
   "minimum-stability": "dev",

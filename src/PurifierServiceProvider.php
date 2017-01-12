@@ -1,4 +1,4 @@
-<?php namespace Mews\Purifier;
+<?php namespace LukeTowers\Purifier;
 
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;

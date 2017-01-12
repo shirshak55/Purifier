@@ -1,6 +1,6 @@
 <?php
 
-namespace Mews\Purifier;
+namespace LukeTowers\Purifier;
 
 /**
  * Laravel 5 HTMLPurifier package
